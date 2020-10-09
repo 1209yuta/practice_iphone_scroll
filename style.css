@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Josefin+Sans:wght@200;300;400;500&family=Lato:wght@100;300;400;700&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    min-height: 1000px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    /*padding: 100px;*/
+}
+
+section .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section .box img{
+    max-width: 100%;
+    transform: scale(1.2);
+}
+
+section .box1 {
+    position: absolute;
+    top: 56%;
+    left: 49.5%;
+}
+
+section .text {
+    position: absolute;
+    bottom: 25%;
+    left: 20%;
+    font-size: 4em;
+    font-weight: 400;
+}
+
+section .text span {
+    color: #000;
+    font-weight: 300;
+}
+
+/*section .box img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-60%, -60%);
+}*/
+
+/*section .box1 img{
+    position: absolute;
+    top: 46%;
+    left: 50.5%;
+}*/
+
+/*section .text {
+    position: absolute;
+    bottom: 36%;
+    left: 100px;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+}*/
+
+
+@media (max-width: 800px) {
+    
+    section .box1 {
+        width: 16em;
+        height: 16em;
+        left: 49.3%;
+        top: 51.4%;
+    }
+}
